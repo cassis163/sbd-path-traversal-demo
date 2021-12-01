@@ -5,6 +5,7 @@
 if (isset($_FILES["fileToUpload"])) {
     if (!isset($_POST["name"])) {
         http_response_code(400);
+
         return;
     }
     $target_dir = "uploads/";
@@ -13,6 +14,7 @@ if (isset($_FILES["fileToUpload"])) {
     ?>
         <div>Upload complete!</div>
     <?php
+    
     return;
 } else {
     ?>
