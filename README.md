@@ -20,3 +20,6 @@ Path traversal kan gedaan worden met relatieve en absolute paths.
 
 'Relative path traversal': `localhost:8080/?file=../../log/dpkg.log`<br />
 'Absolute path traversal': `localhost:8080/?file=/var/log/dpkg.log`
+
+## Beveiliging
+Zie het volgende pull request: https://github.com/cassis163/sbd-path-traversal-demo/pull/1
